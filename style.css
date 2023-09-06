@@ -1,0 +1,31 @@
+html {
+	background-image: linear-gradient(90deg, #7950f2 5%, #748ffc 95%);
+	font-family: sans-serif;
+}
+
+h1,
+h2 {
+	font-size: 3.5rem;
+}
+
+img {
+	max-width: 500px;
+}
+
+.item {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hidden {
+	opacity: 0;
+	transform: translateX(-30%);
+	transition: all 1s;
+}
+
+.show {
+	opacity: 1;
+	transform: translateX(0);
+}
