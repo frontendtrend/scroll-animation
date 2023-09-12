@@ -9,7 +9,7 @@ h2 {
 }
 
 img {
-	max-width: 500px;
+	max-width: 50%;
 }
 
 .item {
@@ -17,6 +17,8 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 1rem;
+	margin: 0 1rem;
 }
 
 .hidden {
