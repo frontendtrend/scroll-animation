@@ -9,19 +9,21 @@ h2 {
 }
 
 img {
-	max-width: 50%;
+	max-width: 75%;
 }
 
 .item {
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
 	margin: 0 1rem;
+	text-align: center;
 }
 
-.hidden {
+.hide {
 	opacity: 0;
 	transform: translateX(-30%);
 	transition: all 1s;
